@@ -5,6 +5,7 @@ Concept
 -------
 
 Vi consider this different state of editing: 
+
 	* insert
 	* change
 	* delete
