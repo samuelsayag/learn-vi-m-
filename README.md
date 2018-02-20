@@ -5,11 +5,11 @@ Concept
 -------
 
 Vi consider this different state of editing: 
-	- insert
-	- change
-	- delete
-	- move
-	- copy
+	* insert
+	* change
+	* delete
+	* move
+	* copy
 
 Edit a text with Vi
 -------------------
