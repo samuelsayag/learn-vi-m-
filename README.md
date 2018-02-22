@@ -43,5 +43,6 @@ Its possible to access the shell while being in vi(m).
 
 For instance to `ls` or `df` from the current directory, type: `:!ls` and `:!df`.
 
+Or simply to access a shell type: `:sh` (exiting may be done by `Ctrl + D`, `Ctrl + Z` or `exit`)
 
                 
