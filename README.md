@@ -83,3 +83,14 @@ To move by lines:
 * zz : put the current line in the middle of the screen
 * zt : put the current line at the top of the screen
 * zb : put the current line at the bottom of the screen 
+
+### Inserting / Appending / Changing
+
+#### Undo / Redo
+
+In command mode:
+
+* u : undo
+* Ctrl+r : redo
+
+
