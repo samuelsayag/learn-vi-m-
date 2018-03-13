@@ -45,4 +45,41 @@ For instance to `ls` or `df` from the current directory, type: `:!ls` and `:!df`
 
 Or simply to access a shell type: `:sh` (exiting may be done by `Ctrl + D`, `Ctrl + Z` or `exit`)
 
-                
+
+Simple edits
+------------
+
+### Moving the cursor around
+
+In command mode (the default mode when you enter Vi(m) you can move arount one charachter at a time or one line by pressing:
+
+* h : left
+* j : down
+* k : up
+* l : right
+
+Multiplication of command: 9k move up 9 line.
+
+* 0 : will move the cursor to the beginning of the line
+* $ : will move the cursor to the end of the line
+
+To move word at a time:
+
+* w : forward including punctuation as a word
+* W : forward not including punctuation as a word
+* b : backward same spirit
+* B : forward same spirit
+
+To move by lines:
+
+* G : to the end of the file
+* 1G : to the beginning of the file
+* 42G : to the line 42
+
+### Scrolling on the screen
+
+* Ctrl+e : Scrolling downward (the text goes up :))
+* Ctrl+y : Scrolling upward (the text goes down :))
+* zz : put the current line in the middle of the screen
+* zt : put the current line at the top of the screen
+* zb : put the current line at the bottom of the screen 
