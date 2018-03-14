@@ -53,36 +53,36 @@ Simple edits
 
 In command mode (the default mode when you enter Vi(m) you can move arount one charachter at a time or one line by pressing:
 
-* h : left
-* j : down
-* k : up
-* l : right
+* `h` : left
+* `j` : down
+* `k` : up
+* `l` : right
 
 Multiplication of command: 9k move up 9 line.
 
-* 0 : will move the cursor to the beginning of the line
-* $ : will move the cursor to the end of the line
+* `0` : will move the cursor to the beginning of the line
+* `$` : will move the cursor to the end of the line
 
 To move word at a time:
 
-* w : forward including punctuation as a word
-* W : forward not including punctuation as a word
-* b : backward same spirit
-* B : forward same spirit
+* `w` : forward including punctuation as a word
+* `W` : forward not including punctuation as a word
+* `b` : backward same spirit
+* `B` : forward same spirit
 
 To move by lines:
 
-* G : to the end of the file
-* 1G : to the beginning of the file
-* 42G : to the line 42
+* `G` : to the end of the file
+* `1G` : to the beginning of the file
+* `42G` : to the line 42
 
 ### Scrolling on the screen
 
-* Ctrl+e : Scrolling downward (the text goes up :))
-* Ctrl+y : Scrolling upward (the text goes down :))
-* zz : put the current line in the middle of the screen
-* zt : put the current line at the top of the screen
-* zb : put the current line at the bottom of the screen 
+* `Ctrl+e` : Scrolling downward (the text goes up :))
+* `Ctrl+y` : Scrolling upward (the text goes down :))
+* `zz` : put the current line in the middle of the screen
+* `zt` : put the current line at the top of the screen
+* `zb` : put the current line at the bottom of the screen 
 
 ### Inserting / Appending / Changing
 
@@ -90,7 +90,11 @@ To move by lines:
 
 In command mode:
 
-* u : undo
-* Ctrl+r : redo
+* `u` : undo
+* `Ctrl+r` : redo
 
+### Inserting / Appending
 
+This correspond to a mode in Vim. From the command mode:
+
+* `i` 
