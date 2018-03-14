@@ -97,4 +97,22 @@ In command mode:
 
 This correspond to a mode in Vim. From the command mode:
 
-* `i` 
+* `i` let you enter insert mode. The cursor is positioned on the same place that it was in command mode.
+
+* `a` let you enter append mode. The cursor is positioned immediatly after the place it was on in command mode.
+
+Note: Insert mode is practical when you want to insert text at the beginning of a lne and append mode when you want to enter it at the end of the line.
+
+### Changing
+
+Change mode will be relevant when you want to edit a file that has been written and you want to make correction here and there.
+
+* `c[multiplier]w` will let you change `[multiplier]` forward.
+
+* `c[mulitiplier]b` do the same backward.
+
+* `c$` let you change everything until the end of the line.
+
+* `c0` do the same backward until the beginning of the line.
+
+
