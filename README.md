@@ -102,13 +102,19 @@ This correspond to a mode in Vim. From the command mode:
 
 Note: Insert mode is practical when you want to insert text at the beginning of a lne and append mode when you want to enter it at the end of the line.
 
-### Changing
+### Changing / Substituting / Replacing
 
 Change mode will be relevant when you want to edit a file that has been written and you want to make correction here and there.
 
-* `c[multiplier]w` will let you change `[multiplier]` forward.
+* `c[multiplier]w` will let you change `[multiplier]` word forward.
 * `c[mulitiplier]b` do the same backward.
 * `c$` let you change everything until the end of the line.
 * `c0` do the same backward until the beginning of the line.
+* `cc` will change the whole line until you type `ESC`
+* `C` will change the whole line just like above (`c$`)
 
+* `r` will replace 1 character
+* `[count]s` will replace `count` characters
+* `R` let you write "over" the current text from the position of the cursor until a max of one line.
+* `S` let you substiture a whole line by some other text (`C` do this just from the cursor position).
 
