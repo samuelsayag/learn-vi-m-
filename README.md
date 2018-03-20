@@ -113,6 +113,7 @@ Note: Insert mode is practical when you want to insert text at the beginning of 
 
 Change mode will be relevant when you want to edit a file that has been written and you want to make correction here and there.
 
+
 * `c[multiplier]w` will let you change `[multiplier]` word forward.
 * `c[mulitiplier]b` do the same backward.
 * `c$` let you change everything until the end of the line.
@@ -120,6 +121,7 @@ Change mode will be relevant when you want to edit a file that has been written 
 * `cc` will change the whole line until you type `ESC`
 * `C` will change the whole line just like above (`c$`)
 
+Replacement and substitution make a small difference:
 * `r` will replace 1 character
 * `[multiplier]s` will replace `multiplier` characters
 * `R` let you write "over" the current text from the position of the cursor until a max of one line.
@@ -131,6 +133,5 @@ Change mode will be relevant when you want to edit a file that has been written 
 * `dw` will delete a word (`de` to retain space between words, `dE` to do the same but including punctuation.
 * `d$` or `D` delete until the end of the line.
 * `d0` delete from the beginning of the line
-* `dw` will delete the word under the cursor
 * `dd` delete the whole line
 
