@@ -86,6 +86,13 @@ To move by lines:
 
 ### Inserting / Appending / Changing
 
+The genral form of an edit command under vim will take the form:
+
+*[command][number](text object)*
+
+* command and number are optional. If just *(text object)* is present the effect is to move the cursor.
+* apart from this any combination is possible.
+
 #### Undo / Redo
 
 In command mode:
@@ -114,7 +121,16 @@ Change mode will be relevant when you want to edit a file that has been written 
 * `C` will change the whole line just like above (`c$`)
 
 * `r` will replace 1 character
-* `[count]s` will replace `count` characters
+* `[multiplier]s` will replace `multiplier` characters
 * `R` let you write "over" the current text from the position of the cursor until a max of one line.
 * `S` let you substiture a whole line by some other text (`C` do this just from the cursor position).
+
+### Deleting
+
+* `x` will delete a single character
+* `dw` will delete a word (`de` to retain space between words, `dE` to do the same but including punctuation.
+* `d$` or `D` delete until the end of the line.
+* `d0` delete from the beginning of the line
+* `dw` will delete the word under the cursor
+* `dd` delete the whole line
 
