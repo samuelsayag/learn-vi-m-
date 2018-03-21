@@ -129,6 +129,8 @@ Replacement and substitution make a small difference:
 
 #### Deleting
 
+Deleting some text will additionally put in in a buffer (see also below "yank"). The text may be placed elsewhere with the `p` command.
+
 * `x` will delete a single character
 * `dw` will delete a word (`de` to retain space between words, `dE` to do the same but including punctuation.
 * `db` will delete the preceding word.
@@ -143,4 +145,6 @@ Replacement and substitution make a small difference:
 * `yy` will copy the whole line (just like `Y`)
 * `y$` will copy the text from the cursor until the end of the text.
 * `y0` will do the copy from the cursor to the beginning of the line.
+
+!!!! Beware !!!! the same buffer is user whether you "yank" or "delete"
 
