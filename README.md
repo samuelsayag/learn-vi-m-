@@ -100,7 +100,7 @@ In command mode:
 * `u` : undo
 * `Ctrl+r` : redo
 
-### Inserting / Appending
+#### Inserting / Appending
 
 This correspond to a mode in Vim. From the command mode:
 
@@ -109,7 +109,7 @@ This correspond to a mode in Vim. From the command mode:
 
 Note: Insert mode is practical when you want to insert text at the beginning of a lne and append mode when you want to enter it at the end of the line.
 
-### Changing / Substituting / Replacing
+#### Changing / Substituting / Replacing
 
 Change mode will be relevant when you want to edit a file that has been written and you want to make correction here and there.
 
@@ -127,11 +127,20 @@ Replacement and substitution make a small difference:
 * `R` let you write "over" the current text from the position of the cursor until a max of one line.
 * `S` let you substiture a whole line by some other text (`C` do this just from the cursor position).
 
-### Deleting
+#### Deleting
 
 * `x` will delete a single character
 * `dw` will delete a word (`de` to retain space between words, `dE` to do the same but including punctuation.
+* `db` will delete the preceding word.
 * `d$` or `D` delete until the end of the line.
 * `d0` delete from the beginning of the line
 * `dd` delete the whole line
+* `xp` to transpose two letters
+
+#### Copying text
+
+* `[multiplier]y[text]` will put the text selecter in a special buffer that will be erased by the next y(ank). Then `p` let put this bit of text after the cursor position (P let do just this before the cursor position).
+* `yy` will copy the whole line (just like `Y`)
+* `y$` will copy the text from the cursor until the end of the text.
+* `y0` will do the copy from the cursor to the beginning of the line.
 
