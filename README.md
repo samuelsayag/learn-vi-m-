@@ -155,4 +155,4 @@ Deleting some text will additionally put in in a buffer (see also below "yank").
 
 * `o` open a blank line after the cursor of text.
 * `O` open a blank line befor the cursor of text.
-
+* `J` wil join the line the cursor is currently on with the following line.
