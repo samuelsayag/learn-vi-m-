@@ -99,6 +99,7 @@ In command mode:
 
 * `u` : undo
 * `Ctrl+r` : redo
+* `.` to repeat the last edit command (!!! beware not the last move command but the last edidt command).
 
 #### Inserting / Appending
 
@@ -106,6 +107,8 @@ This correspond to a mode in Vim. From the command mode:
 
 * `i` let you enter insert mode. The cursor is positioned on the same place that it was in command mode.
 * `a` let you enter append mode. The cursor is positioned immediatly after the place it was on in command mode.
+* `I` will insert text at the beginnign of the line.
+* `A` will insert text at the end of the lien.
 
 Note: Insert mode is practical when you want to insert text at the beginning of a lne and append mode when you want to enter it at the end of the line.
 
@@ -147,4 +150,9 @@ Deleting some text will additionally put in in a buffer (see also below "yank").
 * `y0` will do the copy from the cursor to the beginning of the line.
 
 !!!! Beware !!!! the same buffer is user whether you "yank" or "delete"
+
+#### Miscellaneous edits
+
+* `o` open a blank line after the cursor of text.
+* `O` open a blank line befor the cursor of text.
 
