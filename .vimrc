@@ -15,6 +15,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'lifepillar/vim-solarized8'
+Plugin 'junegunn/fzf'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -52,3 +53,5 @@ let g:syntastic_check_on_wq = 0
 set background=dark
 colorscheme solarized8
 
+" fuzzy finder
+set rtp+=~/.fzf
